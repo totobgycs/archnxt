@@ -12,6 +12,6 @@ RUN yaourt -S --noconfirm unzip; \
   unzip nxt-client-1.8.2.zip
 
 WORKDIR /home/build/nxt
-VOLUME /home/buil/nxt/nxt_db
+VOLUME /home/build/nxt/nxt_db
 EXPOSE 7876
 ENTRYPOINT ./run.sh
