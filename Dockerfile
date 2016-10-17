@@ -8,8 +8,8 @@ RUN yaourt -Syy ; \
   yaourt -S --noconfirm --aur jre
 
 RUN yaourt -S --noconfirm unzip; \
-  wget https://bitbucket.org/JeanLucPicard/nxt/downloads/nxt-client-1.10.2.zip; \
-  unzip nxt-client-1.10.2.zip
+  wget https://bitbucket.org/JeanLucPicard/nxt/downloads/nxt-client-1.10.3.zip; \
+  unzip nxt-client-1.10.3.zip
 
 WORKDIR /home/build/nxt
 VOLUME /home/build/nxt/nxt_db
